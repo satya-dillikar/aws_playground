@@ -3,7 +3,8 @@ kind: Service
 metadata:
   name: sample-service
   annotations:
-    service.beta.kubernetes.io/aws-load-balancer-type: nlb-ip
+#    service.beta.kubernetes.io/aws-load-balancer-type: nlb-ip
+    service.beta.kubernetes.io/aws-load-balancer-type: nlb
 spec:
   ports:
     - port: 80

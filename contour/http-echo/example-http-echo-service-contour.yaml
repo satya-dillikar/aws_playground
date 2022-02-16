@@ -1,0 +1,22 @@
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: banana-service-contour
+  namespace: nginx-sample-traffic
+spec:
+  selector:
+    app: banana
+  ports:
+    - port: 5678  # Default port for image
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: apple-service-contour
+  namespace: nginx-sample-traffic
+spec:
+  selector:
+    app: apple
+  ports:
+    - port: 5678  # Default port for image
