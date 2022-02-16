@@ -1,0 +1,28 @@
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: banana-service
+  namespace: nginx-sample-traffic
+  annotations:
+    service.beta.kubernetes.io/aws-load-balancer-type: nlb
+spec:
+  type: LoadBalancer
+  selector:
+    app: banana
+  ports:
+    - port: 5678  # Default port for image
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: apple-service
+  namespace: nginx-sample-traffic
+  annotations:
+    service.beta.kubernetes.io/aws-load-balancer-type: nlb
+spec:
+  type: LoadBalancer
+  selector:
+    app: apple
+  ports:
+    - port: 5678  # Default port for image
