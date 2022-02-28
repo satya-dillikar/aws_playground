@@ -1,37 +1,16 @@
-# Project Title
+# AWS Cloud 
 
-Simple overview of use/purpose.
+The purpose of this playground is to provide real working code.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Hear you will find some of the projects done in AWS Cloud.
 
-## Getting Started
+## Sub Folders includes code for
 
-### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+- IAM Policies on AWS EKS
+- Ingress using Contour on AWS EKS
+- Sample Kubernetes Deployment and Service YAML specs.
 
 ## Authors
 
@@ -41,9 +20,7 @@ Contributors names and contact info
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
+
 * 0.1
     * Initial Release
 
@@ -52,6 +29,4 @@ Contributors names and contact info
 N/A
 
 ## Acknowledgments
-
-Inspiration, code snippets, etc.
 * [Author](https://softbuild.dev)
